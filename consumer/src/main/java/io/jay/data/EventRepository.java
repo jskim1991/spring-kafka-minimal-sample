@@ -1,6 +1,6 @@
-package io.jay.consumer.store;
+package io.jay.data;
 
-import io.jay.consumer.domain.ProcessedEvent;
+import io.jay.domain.ProcessedEvent;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

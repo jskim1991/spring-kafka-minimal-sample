@@ -1,4 +1,4 @@
-package io.jay.producer.rest;
+package io.jay.rest;
 
 import java.util.UUID;
 

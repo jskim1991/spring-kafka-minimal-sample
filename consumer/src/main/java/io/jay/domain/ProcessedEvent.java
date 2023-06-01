@@ -1,4 +1,4 @@
-package io.jay.consumer.domain;
+package io.jay.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

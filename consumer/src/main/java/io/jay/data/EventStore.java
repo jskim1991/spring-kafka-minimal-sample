@@ -1,12 +1,10 @@
-package io.jay.consumer.store;
+package io.jay.data;
 
-import io.jay.consumer.domain.ProcessedEvent;
+import io.jay.domain.ProcessedEvent;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Repository
 @RequiredArgsConstructor
