@@ -1,0 +1,22 @@
+server:
+  port: 8083
+
+kafka:
+  topic: test-topic
+  topic-mp: test-topic-mp
+
+spring:
+  kafka:
+    producer:
+      transaction-id-prefix: consumer-tx-id- # 9강, 10강 설정
+
+  h2: # 10강 설정
+    console:
+      enabled: true  # H2 웹 콘솔 사용
+      path: /h2-console  # 콘솔 접근 URL 경로
+
+  datasource: # 10강 설정
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: 

@@ -1,0 +1,6 @@
+server:
+  port: 8080
+kafka:
+  topic: test-topic
+  topic-mp: test-topic-mp
+  topic-tx: test-topic-tx
